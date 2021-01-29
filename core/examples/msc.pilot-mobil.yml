@@ -1,0 +1,94 @@
+{
+    "id": "urn:x-wmo:md:int.wmo.wis::ca.gc.ec.msc-1.1.1.3",
+    "type": "Feature",
+    "bbox": [
+        -141,
+        42,
+        -52,
+        84
+    ],
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -141,
+                    42
+                ],
+                [
+                    -141,
+                    84
+                ],
+                [
+                    -52,
+                    84
+                ],
+                [
+                    -52,
+                    42
+                ],
+                [
+                    -141,
+                    42
+                ]
+            ]
+        ]
+    },
+    "extents": {
+        "spatial": {
+            "bbox": [
+                -141,
+                42,
+                -52,
+                84
+            ],
+            "crs": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+        },
+        "temporal": {
+            "interval": [
+                "1980-01-01",
+                null
+            ],
+            "trs": "http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"
+        }
+    },
+    "properties": {
+        "externalId": "urn:x-wmo:md:int.wmo.wis::ca.gc.ec.msc-1.1.1.3",
+        "title": "PILOT MOBIL",
+        "description": "PILOT MOBIL is a numerical code (FM 34-XI) used for reporting Upper-winds from a mobile land station",
+        "themes": [
+            {
+                "concepts": [
+                    "Wind Velocity Geopotential Height Pressure Levels"
+                ]
+            },
+            {
+                "concepts": [
+                    "meteorology"
+                ],
+                "scheme": "https://raw.githubusercontent.com/wmo-im/wcmp-codelists/main/codelists/WMO_CategoryCode.csv"
+            },
+            {
+                "concepts": [
+                    "single-level-upper-air-data"
+                ],
+                "scheme": "https://raw.githubusercontent.com/wmo-im/BUFR4/v35/BUFR_TableA_en.csv"
+            }
+        ],
+        "language": "en",
+        "type": "dataset",
+        "created": "1980-01-01",
+        "publisher": "Environment Canada",
+        "rights": "Copyright (c) 2021 Government of Canada",
+        "contactPoint": "http://www.ec.gc.ca/"
+    },
+    "associations": [
+        {
+            "rel": "download",
+            "href": "http://dd.weatheroffice.ec.gc.ca/cgi-bin/bulletin_search.pl?product=UG,UH,UI,UP,UQ,UY&location=cn",
+            "type": "WWW:LINK",
+            "title": "pilot-mobil"
+        }
+    ],
+    "links": []
+}

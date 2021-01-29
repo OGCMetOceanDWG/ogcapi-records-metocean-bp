@@ -111,14 +111,8 @@
         "language": "en",
         "type": "dataset",
         "created": "1991-03-12",
-        "publisher": [
-            "Government of Canada; Environment and Climate Change Canada; Meteorological Service of Canada",
-            "Gouvernement du Canada; Environnement et Changement climatique Canada; Service m\u00e9t\u00e9orologique du Canada"
-        ],
-        "rights": [
-            "Open Government Licence - Canada (https://open.canada.ca/en/open-government-licence-canada)",
-            "Licence du gouvernement ouvert - Canada (https://ouvert.canada.ca/fr/licence-du-gouvernement-ouvert-canada)"
-        ],
+        "publisher": "Government of Canada; Environment and Climate Change Canada; Meteorological Service of Canada",
+        "rights": "Open Government Licence - Canada (https://open.canada.ca/en/open-government-licence-canada)",
         "formats": [
             "GRIB2",
             "WMS"
@@ -130,37 +124,19 @@
             "rel": "download",
             "href": "https://dd.weather.gc.ca/model_gem_global/",
             "type": "WWW:LINK",
-            "name": "MSC Datamart"
+            "title": "MSC Datamart"
         },
         {
             "rel": "download",
             "href": "https://dd.meteo.gc.ca/model_gem_global/",
             "type": "WWW:LINK",
-            "name": "MSC Datamart"
-        },
-        {
-            "rel": "download",
-            "href": "https://geo.weather.gc.ca/geomet?lang=en&service=WMS&request=GetCapabilities&layers=GDPS.ETA_TT",
-            "type": "OGC:WMS",
-            "name": "Air temperature [\u00b0C]"
-        },
-        {
-            "rel": "download",
-            "href": "https://geo.weather.gc.ca/geomet?lang=fr&service=WMS&request=GetCapabilities&layers=GDPS.ETA_TT",
-            "type": "OGC:WMS",
-            "name": "Air temperature [\u00b0C]"
+            "title": "MSC Datamart"
         },
         {
             "rel": "download",
             "href": "amqps://dd.weather.gc.ca/model_gem_global.#",
             "type": "OASIS:AMQP",
-            "name": "MSC Datamart AMQP"
-        },
-        {
-            "rel": "download",
-            "href": "amqps://dd.meteo.gc.ca/model_gem_global.#",
-            "type": "OASIS:AMQP",
-            "name": "MSC Datamart AMQP"
+            "title": "MSC Datamart AMQP"
         }
     ],
     "links": [
@@ -170,5 +146,5 @@
             "type": "WWW:LINK",
             "name": "GDPS dataset description"
         }	
-	]
+    ]
 }
