@@ -131,6 +131,12 @@
             "href": "amqps://dd.weather.gc.ca/model_gem_global.#",
             "type": "OASIS:AMQP",
             "title": "MSC Datamart AMQP"
+        },
+        {
+            "rel": "service-desc",
+            "href": "https://geo.weather.gc.ca/geomet?service=WMS&version=1.3.0&request=GetCapabilities",
+            "type": "OGC:WMS",
+            "title": "MSC GeoMet Web Services"
         }
     ],
     "links": [
