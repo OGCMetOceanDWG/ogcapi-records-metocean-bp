@@ -1,0 +1,174 @@
+{
+    "id": "c041e79a-914a-5a4e-a485-9cbc506195df",
+    "type": "Feature",
+    "bbox": [
+        -180,
+        -90,
+        180,
+        90
+    ],
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -180,
+                    -90
+                ],
+                [
+                    -180,
+                    90
+                ],
+                [
+                    180,
+                    90
+                ],
+                [
+                    180,
+                    -90
+                ],
+                [
+                    -180,
+                    -90
+                ]
+            ]
+        ]
+    },
+    "extents": {
+        "spatial": {
+            "bbox": [
+                -180,
+                -90,
+                180,
+                90
+            ],
+            "crs": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+        },
+        "temporal": {
+            "interval": [
+                "1963-10-01",
+                null
+            ],
+            "trs": "http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"
+        }
+    },
+    "properties": {
+        "externalId": "c041e79a-914a-5a4e-a485-9cbc506195df",
+        "title": "Global Deterministic Prediction System",
+        "description": "The Global Deterministic Prediction System (GDPS) carries out physics calculations to arrive at deterministic predictions of atmospheric elements from the current day out to 10 days into the future. Atmospheric elements include temperature, precipitation, cloud cover, wind speed and direction, humidity and others. This product contains raw numerical results of these calculations. Geographical coverage is global. Data is available at horizontal resolutions of 15 and 25 km. Data is available for 28 vertical levels. Predictions are performed twice a day.",
+        "themes": [
+            {
+                "concepts": [
+                    "Prediction",
+                    "Global",
+                    "Deterministic"
+                ]
+            },
+            {
+                "concepts": [
+                    "Weather forecasts",
+                    "Precipitation",
+                    "Air temperature",
+                    "Humidity",
+                    "Snow",
+                    "Wind",
+                    "Meteorological data"
+                ],
+                "scheme": "https://canada.multites.net/cst/EAEAD1E6-7DD2-4997-BE7F-40BFB1CBE8A2/CST20201211.rdf"
+            },
+            {
+                "concepts": [
+                    "Weather and Climate"
+                ],
+                "scheme": "ISO Harmonized North American Profile (HNAP)"
+            },
+            {
+                "concepts": [
+                    "International"
+                ],
+                "scheme": "ISO Harmonized North American Profile (HNAP)"
+            },
+            {
+                "concepts": [
+                    "Atmosphere"
+                ],
+                "scheme": "ISO Harmonized North American Profile (HNAP)"
+            },
+            {
+                "concepts": [
+                    "weatherForecasts",
+                    "meteorology"
+                ],
+                "scheme": "https://raw.githubusercontent.com/wmo-im/wcmp-codelists/main/codelists/WMO_CategoryCode.csv"
+            },
+            {
+                "concepts": [
+                    "forecasts"
+                ],
+                "scheme": "https://raw.githubusercontent.com/wmo-im/BUFR4/v35/BUFR_TableA_en.csv"
+            }
+        ],
+        "language": "en",
+        "type": "dataset",
+        "created": "1991-03-12",
+        "publisher": [
+            "Government of Canada; Environment and Climate Change Canada; Meteorological Service of Canada",
+            "Gouvernement du Canada; Environnement et Changement climatique Canada; Service m\u00e9t\u00e9orologique du Canada"
+        ],
+        "rights": [
+            "Open Government Licence - Canada (https://open.canada.ca/en/open-government-licence-canada)",
+            "Licence du gouvernement ouvert - Canada (https://ouvert.canada.ca/fr/licence-du-gouvernement-ouvert-canada)"
+        ],
+        "formats": [
+            "GRIB2",
+            "WMS"
+        ],
+        "contactPoint": "https://www.canada.ca/en/environment-climate-change.html"
+    },
+    "associations": [
+        {
+            "rel": "download",
+            "href": "https://dd.weather.gc.ca/model_gem_global/",
+            "type": "WWW:LINK",
+            "name": "MSC Datamart"
+        },
+        {
+            "rel": "download",
+            "href": "https://dd.meteo.gc.ca/model_gem_global/",
+            "type": "WWW:LINK",
+            "name": "MSC Datamart"
+        },
+        {
+            "rel": "download",
+            "href": "https://geo.weather.gc.ca/geomet?lang=en&service=WMS&request=GetCapabilities&layers=GDPS.ETA_TT",
+            "type": "OGC:WMS",
+            "name": "Air temperature [\u00b0C]"
+        },
+        {
+            "rel": "download",
+            "href": "https://geo.weather.gc.ca/geomet?lang=fr&service=WMS&request=GetCapabilities&layers=GDPS.ETA_TT",
+            "type": "OGC:WMS",
+            "name": "Air temperature [\u00b0C]"
+        },
+        {
+            "rel": "download",
+            "href": "amqps://dd.weather.gc.ca/model_gem_global.#",
+            "type": "OASIS:AMQP",
+            "name": "MSC Datamart AMQP"
+        },
+        {
+            "rel": "download",
+            "href": "amqps://dd.meteo.gc.ca/model_gem_global.#",
+            "type": "OASIS:AMQP",
+            "name": "MSC Datamart AMQP"
+        }
+    ],
+    "links": [
+        {
+            "rel": "alternate",
+            "href": "https://eccc-msc.github.io/open-data/msc-data/nwp_gdps/readme_gdps_en/",
+            "type": "WWW:LINK",
+            "name": "GDPS dataset description"
+        }	
+	]
+}
