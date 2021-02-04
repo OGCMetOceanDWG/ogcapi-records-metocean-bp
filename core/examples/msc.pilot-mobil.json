@@ -1,12 +1,6 @@
 {
     "id": "urn:x-wmo:md:int.wmo.wis::ca.gc.ec.msc-1.1.1.3",
     "type": "Feature",
-    "bbox": [
-        -141,
-        42,
-        -52,
-        84
-    ],
     "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -88,6 +82,12 @@
             "href": "http://dd.weatheroffice.ec.gc.ca/cgi-bin/bulletin_search.pl?product=UG,UH,UI,UP,UQ,UY&location=cn",
             "type": "WWW:LINK",
             "title": "pilot-mobil"
+        },
+        {
+            "rel": "alternate",
+            "href": "http://mest.ec.gc.ca/geonetwork/srv/en/csw?service=CSW&version=2.0.2&request=GetRecordById&id=urn:x-wmo:md:int.wmo.wis::ca.gc.ec.msc-1.1.1.3&outputschema=http://www.isotc211.org/2005/gmd",
+            "type": "WWW:LINK",
+            "name": "ISO metadata XML"
         }
     ],
     "links": []

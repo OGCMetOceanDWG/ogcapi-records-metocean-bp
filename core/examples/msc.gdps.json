@@ -1,12 +1,6 @@
 {
     "id": "c041e79a-914a-5a4e-a485-9cbc506195df",
     "type": "Feature",
-    "bbox": [
-        -180,
-        -90,
-        180,
-        90
-    ],
     "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -78,19 +72,10 @@
             },
             {
                 "concepts": [
-                    "Weather and Climate"
-                ],
-                "scheme": "ISO Harmonized North American Profile (HNAP)"
-            },
-            {
-                "concepts": [
-                    "International"
-                ],
-                "scheme": "ISO Harmonized North American Profile (HNAP)"
-            },
-            {
-                "concepts": [
-                    "Atmosphere"
+                    "Weather and Climate",
+                    "International",
+					"Atmosphere"
+
                 ],
                 "scheme": "ISO Harmonized North American Profile (HNAP)"
             },
@@ -145,6 +130,12 @@
             "href": "https://eccc-msc.github.io/open-data/msc-data/nwp_gdps/readme_gdps_en",
             "type": "WWW:LINK",
             "name": "GDPS dataset description"
-        }	
+        },
+        {
+            "rel": "alternate",
+            "href": "https://csw.open.canada.ca/geonetwork/srv/csw?service=CSW&version=2.0.2&request=GetRecordById&outputSchema=csw:IsoRecord&ElementSetName=full&id=c041e79a-914a-5a4e-a485-9cbc506195df",
+            "type": "WWW:LINK",
+            "name": "HNAP ISO metadata XML"
+        }
     ]
 }
