@@ -1,0 +1,101 @@
+{
+    "id": "c041e79a-914a-5a4e-a485-9cbc506195df",
+    "type": "Feature",
+    "bbox": [
+        0,
+        -90,
+        359.9,
+        90
+    ],
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    0,
+                    -90
+                ],
+                [
+                    0,
+                    90
+                ],
+                [
+                    359.9,
+                    90
+                ],
+                [
+                    359.9,
+                    -90
+                ],
+                [
+                    0,
+                    -90
+                ]
+            ]
+        ]
+    },
+    "extents": {
+        "spatial": {
+            "bbox": [
+                0,
+                -90,
+                359.9,
+                90
+            ],
+            "crs": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+        },
+        "temporal": {
+            "range": [
+                "2021-01-19T00:00:00",
+                "2021-02-04T00:00:00" 
+            ],
+            "trs": "http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"
+        }
+    },
+    "properties": {
+        "externalId": "c041e79a-914a-5a4e-a485-9cbc506195df",
+        "title": "Global Forecast System",
+        "description": "The Global Forecast System (GFS) is a weather forecast model produced by the National Centers for Environmental Prediction (NCEP). Dozens of atmospheric and land-soil variables are available through this dataset, from temperatures, winds, and precipitation to soil moisture and atmospheric ozone concentration. The entire globe is covered by the GFS at a base horizontal resolution of 18 miles (28 kilometers) between grid points, which is used by the operational forecasters who predict weather out to 16 days in the future. Horizontal resolution drops to 44 miles (70 kilometers) between grid point for forecasts between one week and two weeks.",
+        "themes": [
+            {
+                "concepts": [
+                    "Prediction",
+                    "Global",
+                    "Deterministic"
+                ]
+            },
+            {
+                "concepts": [
+                    "5-wave geopotential height"
+                ],
+                "scheme": "https://www.nco.ncep.noaa.gov/pmb/docs/grib2/grib2_doc/grib2_table4-2-0-3.shtml"
+            },
+           
+        ],
+        "language": "en",
+        "type": "dataset",
+        "created": "2021-01-19",
+        "publisher": "National Centers for Environmental Prediction (NCEP)",
+        "rights": "https://www.weather.gov/disclaimer",
+        "formats": [
+            "GRIB2"
+        ],
+        "contactPoint": "https://www.emc.ncep.noaa.gov/emc/pages/numerical_forecast_systems/gfs.php"
+    },
+    "associations": [
+        {
+            "rel": "download",
+            "href": "https://nomads.ncep.noaa.gov/cgi-bin/filter_gfs_1p00.pl",
+            "type": "WWW:LINK",
+            "title": "NOMADS Data Dissemination GRIB Filter"
+        }
+    ],
+    "links": [
+        {
+            "rel": "alternate",
+            "href": "https://www.ncdc.noaa.gov/data-access/model-data/model-datasets/global-forcast-system-gfs",
+            "type": "WWW:LINK",
+            "name": "GFS dataset description"
+        }	
+    ]
+}
