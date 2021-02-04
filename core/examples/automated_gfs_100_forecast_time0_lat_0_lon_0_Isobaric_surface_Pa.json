@@ -45,7 +45,7 @@
             "crs": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
         },
         "temporal": {
-            "interval": [
+            "range": [
                 "2021-01-19T00:00:00",
                 "2021-02-04T00:00:00" 
             ],
@@ -55,7 +55,7 @@
     "properties": {
         "externalId": "c041e79a-914a-5a4e-a485-9cbc506195df",
         "title": "Global Forecast System",
-        "description": "The Global Forecast System (GFS) The Global Forecast System (GFS) is a weather forecast model produced by the National Centers for Environmental Prediction (NCEP). Dozens of atmospheric and land-soil variables are available through this dataset, from temperatures, winds, and precipitation to soil moisture and atmospheric ozone concentration. The entire globe is covered by the GFS at a base horizontal resolution of 18 miles (28 kilometers) between grid points, which is used by the operational forecasters who predict weather out to 16 days in the future. Horizontal resolution drops to 44 miles (70 kilometers) between grid point for forecasts between one week and two weeks.",
+        "description": "The Global Forecast System (GFS) is a weather forecast model produced by the National Centers for Environmental Prediction (NCEP). Dozens of atmospheric and land-soil variables are available through this dataset, from temperatures, winds, and precipitation to soil moisture and atmospheric ozone concentration. The entire globe is covered by the GFS at a base horizontal resolution of 18 miles (28 kilometers) between grid points, which is used by the operational forecasters who predict weather out to 16 days in the future. Horizontal resolution drops to 44 miles (70 kilometers) between grid point for forecasts between one week and two weeks.",
         "themes": [
             {
                 "concepts": [
