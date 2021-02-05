@@ -1,12 +1,6 @@
 {
     "id": "c041e79a-914a-5a4e-a485-9cbc506195df",
     "type": "Feature",
-    "bbox": [
-        0,
-        -90,
-        359.9,
-        90
-    ],
     "geometry": {
         "type": "Polygon",
         "coordinates": [
