@@ -46,7 +46,25 @@
                     "Surface data - sea,Operational"
                 ],
                 "scheme": "https://raw.githubusercontent.com/wmo-im/BUFR4/v35/BUFR_TableA_en.csv"
-            }
+            },
+            {
+                "concepts": [
+                    "station model",
+                    "temperature",
+                    "dewpoint",
+                    "relative humidity",
+                    "altimeter",
+                    "visibility",
+                    "ceiling",
+                    "cloud cover",
+                    "winds",
+                    "wind speed",
+                    "wind gust",
+                    "flight cat",
+                    "weather"
+                ],
+                "scheme": "https://www.aviationweather.gov/metar/help?page=inter"
+            }            
         ],
         "language": "en",
         "type": "dataset",
@@ -79,10 +97,16 @@
     "associations": [
         {
             "rel": "download",
+            "href": "https://data-api.mdl.nws.noaa.gov/EDR-API/collections/metar",
+            "type": "WWW:LINK",
+            "title": "EDR-API Metar Collection Endpoint"
+        },        
+        {
+            "rel": "download",
             "href": "https://www.aviationweather.gov/metar/data",
             "type": "WWW:LINK",
             "title": "METAR Data"
-        },
+        }
     ],
     "links": [
         {
