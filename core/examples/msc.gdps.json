@@ -112,6 +112,12 @@
         },
         {
             "rel": "download",
+            "href": "https://api.weather.gc.ca/stac/msc-datamart/model_gem_global?f=json",
+            "type": "STAC",
+            "title": "GDPS STAC"
+        },
+        {
+            "rel": "download",
             "href": "amqps://dd.weather.gc.ca/model_gem_global.#",
             "type": "OASIS:AMQP",
             "title": "MSC Datamart AMQP"
