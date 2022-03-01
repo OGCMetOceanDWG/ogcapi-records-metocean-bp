@@ -30,8 +30,47 @@
     },
     "properties": {
         "externalId": "c041e79a-914a-5a4e-a485-9cbc506195df",
-        "title": "Meteorological Terminal Aviation Routine Weather Report (METAR)",
-        "description": "METAR is a format for reporting weather information. A METAR weather report is predominantly used by aircraft pilots, and by meteorologists, who use aggregated METAR information to assist in weather forecasting.",
+        "recordCreated": "2017-05-26T06:44:07Z",
+        "recordUpdated": "2021-08-23T12:30:00Z",
+        "type": "dataset (http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_ScopeCode)",
+        "title": "GTS Bulletin: Meteorological Aviation Routine Weather Report (METAR) Germany, surface observation airport",
+        "description": "(Should be changed to human description)...The SADL35 TTAAii Data Designators decode as: T1 (S): Surface data T1T2 (SA): Aviation routine reports A1A2 (DL): Germany (The bulletin collects reports from stations: EDHA;EDHI;HAMBURG-FINKENWERDER ;EDHK;KIEL-HOLTENAU ;EDJA;MEMMINGEN ALLGAU ;EDMO;OBERPFAFFENHOFEN ;EDOP;SCHWERIN PARCHIM ;EDTD;DONAUESCHINGEN-VILLINGEN ;EDTL;LAHR ;EDTY;SCHWAEBISCH HALL ;EDVE;BRAUNSCHWEIG WOLFSBURG ;EDXW;WESTERLAND SYLT ;EDZO;)",
+        "keywords": [
+            "ceiling",
+            "cloud",
+            "dewpoint",
+            "pressure",
+            "temperature",
+            "visibility",
+            "weather",
+            "wind"
+        ],
+        "keywordsCodespace": "http://codes.wmo.int/306/4678",
+        "language": "en",
+        "externalID": "urn:x-wmo:md:int.wmo.wis::SADL35EDZO",
+        "created": "2013-07-01T00:00:00Z",
+        "updated": "2017-05-26T00:00:00Z",
+        "publisher": [
+            {
+                "individial-name": "Shane Mill",
+                "organizationName": "National Weather Service",
+                "positionName": "Meteorological Application Developer",
+                "contactInfo": [
+                    {
+                        "phone": ""
+                    }
+                ],
+                "address": [
+                    {
+                        "delivery-point": "SSMC2",
+                        "city": "Silver Spring",
+                        "postal-code": "20910",
+                        "country": "USA"
+                    }
+                ],
+                "onlineResource": ""
+            }
+        ],
         "themes": [
             {
                 "concepts": [
@@ -46,6 +85,14 @@
                     "Surface data - sea,Operational"
                 ],
                 "scheme": "https://raw.githubusercontent.com/wmo-im/BUFR4/v35/BUFR_TableA_en.csv"
+            },
+                   "concepts": [
+                    "KBWI",
+                    "KDCA",
+                    "KLGA",
+                    "KWBC",
+                ],
+                "scheme": "https://wis.wmo.int/2012/codelists/WMOCodeLists.xml#WMO_CategoryCode#MD_KeywordTypeCode_place"
             },
             {
                 "concepts": [
@@ -74,7 +121,7 @@
             "text",
         ],
         "contactPoint": "aviationweather.gov",
-        "rights": ""
+        "rights": "access"
     },
     "extent": {
         "spatial": {
@@ -89,7 +136,7 @@
         "temporal": {
             "interval": [
                 "2021-02-23T03:00:00Z",
-                "2021-02-24T13:00:00Z"
+                "null"
             ],
             "trs": "http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"
         }
